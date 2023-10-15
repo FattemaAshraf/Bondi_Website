@@ -150,3 +150,8 @@ body{
   -o-transform: translateX(0);
 }
 /* End Our Work */
+/* start stuff section */
+.stuff .description{
+  max-width: 500px;
+}
+/* end stuff section */
