@@ -24,6 +24,17 @@ body{
     background-color: var(--dark-color);
   }
 
+  .main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 /* start Navbar */
 .navbar {
     background-color: var(--dark-color);
@@ -58,7 +69,7 @@ body{
 /* Start Landing */
 .landing {
     background: url("../imgs/landing.png") center center/cover no-repeat; 
-    min-height: calc(50vh - 72px);
+    min-height: calc(100vh - 72px);
     position: relative;
   }
   .landing * {
@@ -72,3 +83,27 @@ body{
     background: linear-gradient(var(--dark-color),rgba(255,196,0,.4) );
   }
 /* End Landing */
+/* Start Features */
+.features .icon-holder {
+    height: 200px;
+  }
+  .features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  .features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+  }
+  .features .icon-holder .icon {
+    color: var(--green-color);
+  }
+  .features .feat h4 {
+    color: var(--yellow-color);
+  }
+  /* End Features */
+ 
