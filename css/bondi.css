@@ -175,6 +175,7 @@ body{
   background-color: var(--dark-color);
 }
 .techs img:hover {
+ background-color: rgba(255,196,0,.1);
  transform: scale(1.3);
  -webkit-transform: scale(1.3);
  -moz-transform: scale(1.3);
@@ -200,3 +201,33 @@ body{
   background-color: var(--dark-color);
 }
 /* End Subscribe */
+/* Start Footer */
+.footer {
+  background-color: var(--dark-color);
+}
+.footer .copyright > span {
+  color: var(--green-color);
+}
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+.footer li:hover{
+    color: var(--yellow-color);
+}
+/* End Footer */
