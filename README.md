@@ -11,5 +11,4 @@
 </video>
 
 
-https://github.com/FattemaAshraf/Bondi_Website/assets/129579797/4be99bb8-dbd8-4606-9316-5923ad0b1398
 
