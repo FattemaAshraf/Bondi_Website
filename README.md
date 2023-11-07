@@ -7,9 +7,9 @@
  </div>
 
  <video width="320" height="240" controls>
-  <source src="
-
-https://github.com/FattemaAshraf/Bondi_Website/assets/129579797/da3e7cbf-45f7-4c4f-8658-5762a57ee707
-
-" type="video/mp4">
+  <source src="/assets/129579797/da3e7cbf-45f7-4c4f-8658-5762a57ee707" type="video/mp4">
 </video>
+
+
+https://github.com/FattemaAshraf/Bondi_Website/assets/129579797/4be99bb8-dbd8-4606-9316-5923ad0b1398
+
