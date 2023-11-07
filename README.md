@@ -7,7 +7,7 @@
  </div>
 
  <video width="320" height="240" controls>
-  <source src="/assets/129579797/da3e7cbf-45f7-4c4f-8658-5762a57ee707" type="video/mp4">
+  <source src="../assets/129579797/da3e7cbf-45f7-4c4f-8658-5762a57ee707" type="video/mp4">
 </video>
 
 
