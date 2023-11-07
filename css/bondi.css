@@ -34,7 +34,9 @@ body{
     left: 50%;
     transform: translateX(-50%);
   }
-
+.box-sh{
+  box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+}
 /* start Navbar */
 .navbar {
     background-color: var(--dark-color);
@@ -169,6 +171,10 @@ body{
 .team .box h4 {
   background-color: var(--green-color);
 }
+.team .container div:last-child .box-sh{
+  box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+
+}
 /* End Team */
 /* start techs section */
 .project{
@@ -183,6 +189,36 @@ body{
  -o-transform: scale(1.3);
 }
 /* end techs section */
+/* start blog section */
+
+.blog .container .card{
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -moz-transition: .3s ease-in;
+  -ms-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+}
+.blog .container .card img{
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -moz-transition: .3s ease-in;
+  -ms-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.blog .container .card:hover{
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  -o-transform: scale(.9);
+}
+.blog .container .card:hover img{
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+/* end blog section */
 /* Start Subscribe */
 .subscribe {
   background-color: var(--yellow-color);
